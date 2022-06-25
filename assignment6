@@ -1,0 +1,18 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class assignment6 {
+
+    public static void main(String[] args) {
+        Map<String, Integer> hm = new HashMap<String, Integer>();
+        String[] arrHoldValue = {"dict1","dict3","test3","test8"};
+        for(int i=0;i<arrHoldValue.length;i++)
+        {
+            if(hm.containsKey(arrHoldValue[i].replaceAll("\\d","")))
+            {
+
+            }
+        }
+    }
+
+}
